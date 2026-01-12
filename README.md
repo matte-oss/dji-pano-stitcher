@@ -10,7 +10,34 @@ Combines Hugin's panorama tools, ImageMagick, SkyFill, and ExifTool for a seamle
 - **EXIF metadata injection** for proper panorama display and upload on Google Maps/Photos
 - **Cross-platform support**: Windows & Linux
 - **Automatic tool download (SkyFill, ExifTool)** if missing
+## How to Install
 
+1. **Get the Code**
+   - Click the green "Code" button (above) on this repository.
+   - Select **Download ZIP**.
+   - Extract the ZIP file to your computer.
+
+   *Alternatively, you can use git:*
+   ```sh
+   git clone https://github.com/matte-oss/dji-pano-stitcher.git
+   cd dji-pano-stitcher
+   ```
+
+2. **Requirements**
+   - **Python 3.7+** installed
+   - **Hugin panorama tools** installed ([download link](http://hugin.sourceforge.net/))  
+     - Make sure tools like `pto_gen`, `cpfind`, etc. are in your PATH
+   - **ImageMagick** installed and available on your PATH ([download link](https://imagemagick.org/script/download.php))
+   - On **Linux**, install ExifTool:
+     ```sh
+     sudo apt update
+     sudo apt install libimage-exiftool-perl
+     ```
+     On **Windows**, ExifTool and SkyFill will download automatically when you run the script.
+
+3. **That's it!**  
+   You’re ready to run the script for panoramic image stitching.
+   
 ## Prerequisites
 
 - [Python 3.7+](https://www.python.org/)
