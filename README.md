@@ -22,7 +22,7 @@ Combines Hugin's panorama tools, ImageMagick, SkyFill, and ExifTool for a seamle
 ## Usage
 
 ```sh
-python pano.py <images-folder> [--debug-skip]
+python dji-pano-stitcher.py <images-folder> [--debug-skip]
 ```
 
 - `<images-folder>`: Path to folder of DJI images
@@ -44,7 +44,7 @@ python pano.py <images-folder> [--debug-skip]
 ## Example
 
 ```sh
-python pano.py dji-images
+python dji-pano-stitcher.py dji-images
 ```
 Final file will be in `output/dji-images_pano.jpg`
 
