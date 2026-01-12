@@ -2,7 +2,7 @@
 
 A tool for automatically stitching, resizing, and enhancing panoramic images shot with DJI drones.  
 Combines Hugin's panorama tools, ImageMagick, SkyFill, and ExifTool for a seamless equirectangular workflow.
-Unlike the automatic stitching done by the DJI Fly app, this script creates full-res panoramas
+Unlike the automatic stitching done by the DJI Fly app, this script creates full-res panoramas.
 
 ## Features
 
