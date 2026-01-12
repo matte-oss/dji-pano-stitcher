@@ -7,7 +7,7 @@ Combines Hugin's panorama tools, ImageMagick, SkyFill, and ExifTool for a seamle
 
 - **Automatic panorama stitching** using Hugin CLI tools
 - **Sky filling for panoramas** using SkyFill
-- **EXIF metadata injection** for proper panorama display
+- **EXIF metadata injection** for proper panorama display and upload on Google Maps/Photos
 - **Cross-platform support**: Windows & Linux
 - **Automatic tool download (SkyFill, ExifTool)** if missing
 
