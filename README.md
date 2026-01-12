@@ -11,6 +11,15 @@ Unlike the automatic stitching done by the DJI Fly app, this script creates full
 - **EXIF metadata injection** for proper panorama display and upload on Google Maps/Photos
 - **Cross-platform support**: Windows & Linux
 - **Automatic tool download (SkyFill, ExifTool)** if missing
+   
+## Prerequisites
+
+- [Python 3.7+](https://www.python.org/)
+- Images captured by DJI drone (in a folder, they should be 26)
+- [Hugin](http://hugin.sourceforge.net/) installed (CLI tools in PATH or default locations)
+- [ImageMagick](https://imagemagick.org/) installed (magick in PATH)
+- On Linux: `exiftool` installed via package manager
+
 ## How to Install
 
 1. **Get the Code**
@@ -38,14 +47,6 @@ Unlike the automatic stitching done by the DJI Fly app, this script creates full
 
 3. **That's it!**  
    You’re ready to run the script for panoramic image stitching.
-   
-## Prerequisites
-
-- [Python 3.7+](https://www.python.org/)
-- Images captured by DJI drone (in a folder, they should be 26)
-- [Hugin](http://hugin.sourceforge.net/) installed (CLI tools in PATH or default locations)
-- [ImageMagick](https://imagemagick.org/) installed (magick in PATH)
-- On Linux: `exiftool` installed via package manager
 
 ## Usage
 
