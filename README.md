@@ -16,7 +16,7 @@ Unlike the automatic stitching done by the DJI Fly app, this script creates full
 
 - [Python 3.7+](https://www.python.org/)
 - Images captured by DJI drone (in a folder, they should be 26)
-- [Hugin](http://hugin.sourceforge.net/) installed (CLI tools in PATH or default locations)
+- [Hugin](http://hugin.sourceforge.net/) installed 
 - [ImageMagick](https://imagemagick.org/) installed (magick in PATH)
 - On Linux: `exiftool` installed via package manager
 
